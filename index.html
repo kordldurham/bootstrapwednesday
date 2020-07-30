@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<main>
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+  
+  <!--Page Content-->
+  <title>Revised insight into Wednesdays</title>
+
+  <!--Navbar, dropdown-->
+  <nav class="fixed-top navbar bg-tan border-tan text-center">
+  <div class="border-left border-right border-dark">
+  <span class=" d-block navbar-brand h1 pl-3">KD Web Development</span>
+  </div>
+  <div class="d-flex container-flex flex-row bg-tan">
+    <div class="dropdown">
+  <button class="pull-left d-toggle btn dropdown-toggle nav-tan" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</button>
+  <div class="d-menu dropdown-menu" aria-labelledby="dropdownProjects">
+    <a class="d-item dropdown-item" id="survey" href="https://kordldurham.github.io/surveyportfolio/" target="_blank">Survey</a>
+    <a class="d-item dropdown-item" id="shuckle" href="https://kordldurham.github.io/redesigned-doodle/" target="_blank">Wiki Entry</a>
+    <a class="d-item dropdown-item" id="clock" href="https://kordldurham.github.io/impractical_clock/" target="_blank">Impractical Clock</a>
+    <a class="d-item dropdown-item" id="wednesday" href="https://kordldurham.github.io/SparkyArcingPotato/" target="_blank">Wednesday</a>
+  </div>
+  </div>
+  <div class="dropdown ml-1 flex-row">
+  <button class="d-toggle btn dropdown-toggle nav-tan" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Certifications</button>
+  <div class="d-menu dropdown-menu" aria-labelledby="dropdownCerts">
+    <a class="d-item dropdown-item" href="https://www.freecodecamp.org/certification/kordldurham/responsive-web-design" target="_blank">Responsive Web Design</a>
+    <a class="d-item dropdown-item style=color:grey"  href="#"><s>Front End Development</s></a>
+  </div>
+</div>
+    <div class="dropdown ml-1 flex-row-reverse">
+    <button class="d-toggle btn dropdown-toggle nav-tan" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</button>
+    <div class="d-menu dropdown-menu" aria-labelledby="dropdownContact">
+    <a class="d-item dropdown-item" id="gitHubLink" href="https://github.com/kordldurham" target="_blank">GitHub</a>
+    <a class="d-item dropdown-item" id="emailLink" href="mail:devkorddurham@gmail.com" target="_blank">Email</a>
+    <a class="d-item dropdown-item" id="redditLink" href="https://www.reddit.com/user/SparkyArcingPotato" target="_blank">Reddit</a>
+    <a class="d-item dropdown-item" id="paypalLink"  href="https://paypal.me/SparkyArcingPotato?locale.x=en_US" target="_blank">Donations</a>
+    </div>
+   </div>
+  </div>
+</nav>
+<!--/navbar, dropdown-->
+
+  </head>
+<body>
+
+<!--Jumbotron-->
+  <div class="jumbotron text-center mb-0">
+  <div class="container">
+    <h5 class="pt-3">And now:</h5>
+    <h5 class="pt-2">An insight into Wednesdays:</h5>
+    <h1 class="pt-2 pb-auto">Is it Wednesday, my dudes?</h1>
+  </div>
+</div>
+<!--/jumbotron-->
+
+<!--Intro-->
+<div class="container-flex pb-1 bg-tan b-bord">
+    <img id="frogImg" class="img-main bg-tan mx-auto d-block mt-3 mb-3" sigcap="It is Wednesday, my dudes." alt="It is Wednesday, my dudes." src="https://i.kym-cdn.com/photos/images/newsfeed/001/091/264/665.jpg">
+</div>
+<!--/intro-->
+
+<!--Desc-->
+<div class="container-flex text-center bg-tan py-4">
+    <h2 id="caption" class="px-5">Chances are that if you are viewing this page it is because, in fact, it IS Wednesday.</h2>
+    <p id="apology" class="px-5">(If you are viewing this page on a day other than Wednesday a grave error has occured and you should leave immediately as this is very embarassing for the both of us.) :(</p>
+</div>
+<!--/desc-->
+
+<!--Form-->
+<div class="container-flex text-center bg-tan my-n0">
+      <form id="wedForm" class="" action="#redirect" method="get" action="/form_submit.php">
+        <div class="container mb-4 pb-5">
+        <fieldset id="wedForm" class="py-3 rounded shadow fieldset">
+          <legend id="wedLegend" class="col-form-legend">Is it Wednesday? Tell us here!</legend>
+          <label><input id="radioyes" class="" type="radio" name="yes-no" value="yes" required> It is Wednesday</label>
+          <label><input id="radiono" class="" type="radio" name="yes-no" value="no" required> It is not Wednesday</label><br>
+          <label><input id="myDudes" class="" type="checkbox" name="My dudes" value="mydudes"> My dudes</label><br>
+          <form>
+            <div class="form-row px-4 pb-2">
+              <div class="col pl-4">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col pr-4">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+          </form>
+            <div class="form-group px-5">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+          <button id="submitButton" onclick="alert('This information has been submitted to our top researchers, please stand by for further instructions.')" target="_blank" class="btn btn-warning btn-lg" type="submit">Ayyy</button></a>
+        </fieldset>
+        </div>
+      </div>
+    </form>
+<!--/form-->
+
+<!--/page content-->
+  </body>
+  <footer class="container border-top border-dark">
+  <p style="font-family:monospace" class="py-5"> &copy; 2020 "A brief insight into Wednesdays" by Kord Durham</p>
+  </footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </main>
+</html>

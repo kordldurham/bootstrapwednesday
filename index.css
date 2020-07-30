@@ -1,0 +1,75 @@
+main {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #fffcb5;
+}
+
+.bg-tan {
+    background-color: #fffcb5;
+}
+
+.fieldset {
+    background-color: #fff982;
+    border: dotted .50px black;
+}
+
+.border-tan {
+    border-bottom-style: outset;
+    border-color: #d9ce00;
+    border-width: 1px;
+}
+
+.img-main {
+    max-width: 30%;
+    max-height: auto;
+    border: outset 2.5px black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.b-bord {
+    background-color: #fff982;
+    border-top-style: outset;
+    border-color: black;
+    border-width: 1px;
+}
+
+.nav-tan {
+    background-color: #fff982;
+    color: black;
+    border: inset 1px black;
+}
+
+.nav-tan:hover {
+    background-color: #d9ce00;
+    color: #111;
+    border: outset 1px #111;
+}
+
+.nav-tan:focus {
+    background-color: #d9ce00;
+    color: #111;
+    border: outset 1px #111;
+}
+
+.d-item {
+    background-color: #fff982;
+    color: #111;
+    border-bottom: solid 1px #fff892;
+    border-top: solid 1px #fff892;
+}
+
+.d-item:hover {
+    background-color: #d9ce00;
+    color: #111;
+    border-bottom: outset 1px #111;
+    border-top: outset 1px #111;
+}
+
+.d-menu {
+    background-color: #fff982;
+    color: black;
+    border: outset 1px black;
+}
+
+.jumbotron {
+    background-color: #ccc188;
+}
